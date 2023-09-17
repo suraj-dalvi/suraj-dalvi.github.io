@@ -1,24 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+
+    <!-- Website Metadata -->
     <meta charset="utf-8" />
-    <!-- Website logo -->
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
+    <!-- Website logo -->
+    <link rel="icon" href="/favicon.ico" />
+
     <!-- Website Title -->
-    <title> Suraj Dalvi - Encoding </title>
+    <title>Suraj Dalvi - Encoding</title>
 
     <!-- Website Description -->
     <meta name="description"
         content="🟢 Suraj Dalvi | CSE Student | Coder | Developer | Startup Enthusiast | Coding Enthusiast | PCCOE Pune Campus 🟣">
 
     <!-- Link stylesheet -->
-    <!-- For Logos & Files -->
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- For Logos -->
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
     <!-- For Icons -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -33,28 +36,33 @@
             height: 100vh;
             background: #fff url('load.gif') no-repeat center;
             background-size: 50px;
-            z-index: 99999;
+            z-index: 99999
         }
 
-        /* User Access */
+        /* User Access - user is now unable to select the website content */
         .user_access {
-            user-select: none;
+            user-select: none
         }
     </style>
+
+    <!-- Link Optimised Web CSS and JS -->
+    <script defer="defer" src="/static/js/main.02f117e2.js"></script>
+    <link href="/static/css/main.18aab1f2.css" rel="stylesheet">
 </head>
 
+<!-- Website Main Body -->
 <body onload="myFunction()">
-    <div id="loading"> </div>
+    <div id="loading"></div>
     <div class="user_access" id="root"></div>
 </body>
 
 <!-- External JS -->
 <script>
-    var preloader = document.getElementById('loading');
+    var preloader = document.getElementById("loading");
     function myFunction() {
-        setTimeout(function () {
-            preloader.style.display = 'none';
-        }, 4000)
+        setTimeout((function () {
+            preloader.style.display = "none"
+        }), 4e3)
     }
 </script>
 
